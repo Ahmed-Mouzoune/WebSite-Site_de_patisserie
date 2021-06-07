@@ -1,0 +1,143 @@
+/* FLEX */
+.flex {
+    display: flex;
+}
+
+.x-center {
+    justify-content: center;
+}
+
+.y-center {
+    align-items: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.gap-8 {
+    gap: 8px;
+}
+
+/* HEIGHT */
+.max-height {
+    min-height: 100vh;
+}
+
+/* WIDTH */
+.full-width {
+    width: 100%;
+}
+
+/* MARGINS */
+.m-t-4 {
+    margin-top: 32px;
+}
+
+.m-b-2 {
+    margin-bottom: 16px;
+}
+
+.m-8 {
+    margin: 8px;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+/* PADDINGS */
+.p-8 {
+    padding: 8px;
+}
+
+.p-16 {
+    padding: 16px;
+}
+
+.p-32 {
+    padding: 32px;
+}
+
+/* TEXT */
+.text-center {
+    text-align: center;
+}
+
+/* CURSOR */
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* COMPONENTS */
+.card {
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 12px #6e6e6e;
+    padding: 8px;
+    width: min-content;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.link-badge {
+    font-size: 5vw;
+    background-color: #607d8b;
+    width: min-content;
+    margin: auto;
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    min-width: 200px;
+    position: relative;
+    bottom: 40px;
+}
+
+/* TRANSITIONS */
+.fade-in {
+    animation: fadeIn 500ms ease forwards;
+}
+
+.fade-in--slow {
+    animation: fadeIn 1.5s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-out {
+    animation: fadeOut 500ms ease both;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+/* BACKGROUNDS */
+.bg-fixed {
+    background-attachment: fixed;
+}
+
+.bg-cover {
+    background-size: cover;
+}
+
+.bg-no-repeat {
+    background-repeat: no-repeat;
+}
+
+.bg-center {
+    background-position: center;
+}

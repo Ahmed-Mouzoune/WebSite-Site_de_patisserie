@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Oi&display=swap">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap">
+    <link rel="preload" as="image" href="assets/background-home-min.jpg">
+    <link rel="preload" as="image" href="assets/background-last-recipes-min.jpg">
+    <link rel="preload" as="image" href="assets/intro-min.jpg">
+    <link rel="preload" as="image" href="assets/latest_pastries_1-min.jpg">
+    <link rel="preload" as="image" href="assets/latest_pastries_2-min.jpg">
+    <link rel="preload" as="image" href="assets/latest_pastries_3-min.jpg">
+    
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/style.css">
+    <script defer src="./app.js"></script>
+    <title>The Bakery</title>
+</head>
+
+<body>
+    <header class="max-height flex x-center y-center">
+        <a href="#intro" class="enter-link fade-in--slow text-center">Enter The Bakery!</a>
+    </header>
+    <main>
+        <section id="intro" class="max-height flex x-center y-center">
+            <div>
+                <h2>Who are we?</h2>
+                <div id="intro__content">
+                    <p class="m-8">
+                        We are but a simple Bakery:
+                        on our website, you will find the best recipes in order to bake indecently tasty cakes and
+                        pastries.
+                    </p>
+                    <p class="m-8">
+                        Our main goal is to provide the world with the secrets of the smooth and mellow delicacies your
+                        parents and grand-parents used
+                        to make when you were young!
+                        Have you not always wondered how to prepare those incredibly soft and comforting cookies you
+                        used to
+                        eat as a child?
+                        How about showing your soulmate how much you love them with a chocolate fondant for your wedding
+                        anniversary?<br />
+                        You will find all of those recipes here, on <strong>The Bakery!</strong>
+                    </p>
+
+                    <img src="./assets/intro-min.jpg" class="m-t-4 m-b-2" alt="baking">
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="last-recipes" class="max-height p-32 flex x-center y-center">
+            <div>
+                <div class="card">
+                    <h2>Last Recipes</h2>
+                    <p class="p-8 text-center">Click on one of those pastries and learn a new recipe!</p>
+                </div>
+                <div id="last-recipes__content">
+                    <img class="cursor-pointer" src="./assets/latest_pastries_1-min.jpg" alt="macarons">
+                    <img class="cursor-pointer" src="./assets/latest_pastries_2-min.jpg" alt="cupcakes">
+                    <img class="cursor-pointer" src="./assets/latest_pastries_3-min.jpg" alt="cookies">
+                </div>
+                <a href="" class="link-badge">See More Recipes</a>
+            </div>
+        </section>
+    </main>
+    <footer id="contact-us" class="max-height flex x-center y-center">
+        <div>
+            <h2>Contact Us</h2>
+            <p class="text-center">If you'd like to submit a pastry recipe, please contact us via the form below! We
+                will be
+                happy to discuss with you 🧁🍰</p>
+            <form id="contact-us__form">
+                <label for="email">
+                    Enter your email
+                </label>
+                <input id="email" type="email"><br />
+                <label for="recipe">
+                    Enter your recipe
+                </label>
+                <textarea name="recipe" id="recipe"></textarea>
+
+                <button type="submit">Share My Recipe!</button>
+            </form>
+        </div>
+    </footer>
+    <button class="top-btn">
+        <span class="material-icons">
+            arrow_circle_up
+        </span>
+    </button>
+</body>
+
+</html>
